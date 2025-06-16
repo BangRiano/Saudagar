@@ -1,0 +1,177 @@
+/* ----------------------------
+   General Styles
+---------------------------- */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------------------
+   Header/Navbar
+---------------------------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .icons span {
+  margin-left: 15px;
+}
+
+.navbar .search-bar {
+  display: flex;
+  margin-top: 10px;
+}
+
+.navbar .search-bar input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.navbar .search-bar button {
+  padding: 5px 10px;
+  background-color: #8c500c;
+  color: #4d0202;
+  border: none;
+}
+
+/* ----------------------------
+   Judul Produk Terbaru
+---------------------------- */
+.judul {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 60px 0 30px;
+  color: #2d19ab;
+}
+
+/* ----------------------------
+   Product Section
+---------------------------- */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-card {
+  background-color: #e4e0eb;
+  border-radius: 8px;
+  padding: 10px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(56, 3, 161, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  margin: 5px 0;
+}
+
+.product-card button {
+  background-color: #23b85c;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ----------------------------
+   Footer
+---------------------------- */
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.footer-content div {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Marketplace & Sosial Media */
+.social-links a,
+.marketplace-links a {
+  margin-right: 10px;
+}
+
+.social-links img,
+.marketplace-links img {
+  height: 20px;
+  vertical-align: middle;
+}
+
+/* ----------------------------
+   Footer Links & List
+---------------------------- */
+.footer-heading {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+}
+
+.footer-links li a {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+/* Global List Reset */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* ----------------------------
+   Logout Button
+---------------------------- */
+.logout-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
